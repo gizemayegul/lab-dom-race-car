@@ -25,6 +25,10 @@ body {
   animation: slide 5s linear infinite;
 }
 
+#game-container > div {
+  padding-right: 30px;
+}
+
 @keyframes slide {
   0% {
     background-position: 0 -1000px;
